@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png" rel="shortcut icon" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <title>서비스</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <img src="https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png" alt="sy 로고" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">로그인</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">회원가입</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mypage.html">마이페이지</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">서비스</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="submit.html">제출</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <hr>
+        <p><b>과목별로 과제 자동제출 On/Off 설정</b></p>
+        <hr>
+        <select>
+            <option>1학년</option>
+            <option>2학년</option>
+            <option>3학년</option>
+            <option>4학년</option>
+          </select>
+            <input type="submit" value="선택">
+        </form>
+    </div>
+    <br>
+    <select>
+        <option>HTML - 김아무개 교수</option>
+        <option>CSS - 멋쟁이 교수</option>
+        <option>JS - 사자 교수</option>
+        <option>알고리즘 - 홍길동 교수</option>
+      </select>
+      
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">On</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio2">Off</label>
+        </div>
+
+        <br><button type="button" onclick="alert('변경되었습니다.')">변경사항 저장</button>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png" rel="shortcut icon" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <title>회원가입</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <img src="https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png" alt="sy 로고" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">로그인</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">회원가입</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mypage.html">마이페이지</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">서비스</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="submit.html">제출</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <p><b>자동백업서비스 회원가입 페이지입니다.</b></p>
+        <form action="main.html">
+            <label for="name_input">이름 : </label><br>
+            <input id="name_input" name="name"><br>
+            <label for="id_input">아이디: </label><br>
+            <input id="id_input" name="id"><br>
+            <label for="password_input" name="password">비밀번호: </label><br>
+            <input type="password" name="password"><br>
+            <label for="password_input" name="password">비밀번호 재확인: </label><br>
+            <input type ="password" name="password"><br><br>
+            <select>
+                <option value="">대학교선택</option>
+                <option value="삼육대학교">삼육대학교</option>
+                <option value="상명대학교">상명대학교</option>
+                <option value="서울과학기술대학교">서울과학기술대학교</option>
+                <option value="서울여자대학교">서울여자대학교</option>
+              </select>
+            <input type="submit" onclick="alert('회원가입에 성공했습니다.')" value="회원가입">
+        </form>
+    </div>
+
+</body>
+</html>
