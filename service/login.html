@@ -14,15 +14,25 @@
         }
         form.row.gy-2.gx-3.align-items-center {
             display: inline-block;
-            padding-left: 645px;
+            margin-left: 635px;
         }
         button.btn.btn-primary {
-            margin-left: 85px;
             background-color: #9FA9D8;
             border-color: #9FA9D8;
             font-weight: bold;
+            padding: 7px 102px;
         }
-
+        .btnbtn {
+            padding: 8px 95px;
+            background-color: #9FA9D8;
+            border: 0;
+            outline: 0;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        a:link {color:white; text-decoration: none;}
+        a:visited {color:white; text-decoration: none;}
+        a:hover {color:white; text-decoration: none;}
     </style>
 
 </head>
@@ -30,7 +40,7 @@
 <body>
     <p><img src="image.png" alt="auto_logo" width="400px" height="400px"></p>
     <form class="row gy-2 gx-3 align-items-center">
-        <div class="col-auto">
+      <div class="col-auto">
           <label class="visually-hidden" for="autoSizingInputGroup">이메일</label>
           <div class="input-group">
             <div class="input-group-text">@</div>
@@ -50,7 +60,10 @@
           </div>
         </div>
         <div class="col-auto">
-          <button type="submit" class="btn btn-primary">로그인</button>
+          <button type="submit" class="btn btn-primary"><a href="main.html">로그인</a></button>
+        </div>
+        <div>
+          <button type="submit" class="btnbtn"><a href="signup.html">회원가입</a></button>
         </div>
       </form>
 </body>
