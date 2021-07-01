@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="">
+            <a class="navbar-brand" href="main.html">
                 <img src="https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png" alt="sy 로고" width="50" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,7 +34,7 @@
                         <a class="nav-link" href="mypage.html">마이페이지</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="service.html">서비스</a>
+                        <a class="nav-link" href="service.html">설정</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="submit.html">제출</a>
@@ -43,29 +43,168 @@
         </div>
     </nav>
     
+    <hr>
+    
+
+
+
+<body> 
+    <div style = "padding: 0px 40px 25px 40px;">  
+
+
+    
+
+    <title>7월</title>
+    <style>
+        h3 {
+            background-color: rgba(179, 209, 255, 0.699);
+            text-align: center;
+        }
+    </style>
+
+
+
+<h3 > 7월 </h3>
+  
+    <div id = "cal">
+        <table border= "2">
+            <tr>
+                <th class="red">일</th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+                <th class="blue">토</th>
+                
+            </tr>
+            <tr>
+                <td class="nm">27</td>
+                <td class="nm">28</td>
+                <td class="nm">29</td>
+                <td class="nm">30</td>
+                <td class="tod">1</td>
+                <td>2</td>                
+                <td class="blue">3</td>
+            </tr>
+            <tr>
+                <td class="red">4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td >9</td>
+                <td class="blue">10</td>
+            </tr>
+            <tr>
+                <td class="red">11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td class="blue">17</td>
+            </tr>
+            <tr>
+                <td class="red">18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td class="blue">24</td>
+            </tr>
+            <tr>
+                <td class="red">25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td class="blue">31</td>
+            </tr>
+            <style>
+            .red{
+                color: red;
+                opacity: 0.7;
+            }
+            .blue{
+                color:blue;
+                opacity: 0.7;
+            }
+            .nm{
+                opacity: 0.5;
+            }
+            .tod{
+                background-color: rgba(221, 242, 250, 0.548);
+            }
+
+            #cal>table{
+                border-collapse: collapse;
+                margin: 0px auto;
+                border-color: rgba(179, 209, 255, 0.74);
+            }
+            #cal td,th{
+                text-align: center;
+                padding: 2px 60px;
+                height: 60px;
+            }
+            </style>
+
+
+        </table>
+
+       
+    </div>
+    
+
+</body>
+
+
+
+    <hr>
+
+
+  
+
     <form>
-        <input type="date" name="day"><br>
-        <p><br>&lt;오늘의 할일&gt;</p>
+
+        <!--<input type="date" name="day"><br>
+        <p><br>&lt;오늘의 할일&gt;</p>-->
+
     <div class="list-group">
         <label class="list-group-item">
           <input class="form-check-input me-1" type="checkbox" value="">
-          html 3주차 과제 제출
+          <span style=" color:rgb(70, 101, 187);">[학교]</span>
+          계절 학기 시작
         </label>
         <label class="list-group-item">
           <input class="form-check-input me-1" type="checkbox" value="">
-          css 2주차 강의 듣기
+          <span style=" color:rgb(70, 101, 187);">[강의]</span>
+          css 2주차 강의 듣기 / 
+          <span style=" color:rgba(0, 0, 0, 0.575);">마감일 : 2021.7.1 오후 11:59</span>
+           /
+          <span style=" color:rgb(224, 58, 58);">미수강</span>
         </label>
         <label class="list-group-item">
           <input class="form-check-input me-1" type="checkbox" value="">
-          JS 3주차 강의 듣기
+          <span style=" color:rgb(72, 105, 197);">[강의]</span>
+          JS 3주차 강의 듣기 / 
+          <span style=" color:rgba(0, 0, 0, 0.575);">마감일 : 2021.7.1 오후 11:59</span>
+          /
+          <span style=" color:rgb(214, 45, 45);">미제출</span>
         </label>
         <label class="list-group-item">
           <input class="form-check-input me-1" type="checkbox" value="">
-          html 웹페이지 제작 코드 과제 제출
+          <span style=" color:rgb(70, 101, 187);">[과제]</span>
+           html 웹페이지 제작 코드 과제 제출 /  
+           <span style=" color:rgba(0, 0, 0, 0.575);">마감일 : 2021.7.1 오후 3:59</span>
+           /
+           <span style=" color:rgb(21, 184, 15);">제출</span>
         </label>
       </div>    
     </form>
 
-    
+    </div>
 </body>
 </html>

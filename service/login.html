@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png" rel="shortcut icon" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>로그인</title>
+
+    <style type="text/css">
+        p {
+            text-align: center;
+        }
+        form.row.gy-2.gx-3.align-items-center {
+            display: inline-block;
+            padding-left: 645px;
+        }
+        button.btn.btn-primary {
+            margin-left: 85px;
+            background-color: #9FA9D8;
+            border-color: #9FA9D8;
+            font-weight: bold;
+        }
+
+    </style>
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="">
-                <img src="https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png" alt="sy 로고" width="50" height="50">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">로그인</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="signup.html">회원가입</a>
-                    </li>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mypage.html">마이페이지</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="service.html">서비스</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="submit.html">제출</a>
-                    </li>
-            </div>
+    <p><img src="image.png" alt="auto_logo" width="400px" height="400px"></p>
+    <form class="row gy-2 gx-3 align-items-center">
+        <div class="col-auto">
+          <label class="visually-hidden" for="autoSizingInputGroup">이메일</label>
+          <div class="input-group">
+            <div class="input-group-text">@</div>
+            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="이메일">
+          </div>
         </div>
-    </nav>
-
-    <form action="main.html">
-        아이디:<br><input type="id" name="아이디" size="15" maxlength="10"><br>
-        비밀번호:<br><input type="password" name="비밀번호" size="15" maxlength="10"><br><br>
-        <input type="submit" name="login" value="로그인">
-    </form>
-
+        <div class="col-auto">
+            <label class="visually-hidden" for="autoSizingInput">비밀번호</label>
+            <input type="password" class="form-control" id="autoSizingInput" placeholder="비밀번호">
+          </div>
+          
+        
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">로그인</button>
+        </div>
+      </form>
 </body>
 </html>

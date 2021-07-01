@@ -12,7 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="">
+            <a class="navbar-brand" href="main.html">
                 <img src="https://www.syu.ac.kr/wp-content/uploads/2018/05/pg_thum.png" alt="sy 로고" width="50" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -33,7 +33,7 @@
                         <a class="nav-link" href="mypage.html">마이페이지</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="service.html">서비스</a>
+                        <a class="nav-link" href="service.html">설정</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="submit.html">제출</a>
@@ -42,13 +42,38 @@
         </div>
     </nav>
     
+
+    <div style = "padding: 0px 40px 25px 40px;">  
+
+
+    <hr>
+    <p><b>과제 제출</b></p>
+    <hr>
+
+    <tr>
+        <td>제목</td>
+        <td><input type=text name=title size=100 ><br></td>
+    </tr>
+
     <form action="" enctype="multipart/form-data" name="file">
-        <input type="file" name="FileName">
-        <input type="submit" value="업로드">
-        <input type="submit" value="임시저장">
-    </>
-      
-      
-      
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" name="FileName">
+    </form>
+
+    <object>
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+    
+    <textarea cols="100" rows="15" style="resize: none;"></textarea>
+    </object>
+
+    <input type="submit" onclick="alert('임시저장했습니다.')"value="임시저장">
+    <input type="submit" onclick="alert('제출하였습니다.')" value="업로드">
+
+
+    
+    
+</div>
+
 </body>
 </html>
